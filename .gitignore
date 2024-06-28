@@ -1,99 +1,20 @@
-# Laravel
-/vendor
+/.phpunit.cache
 /node_modules
+/public/build
+/public/hot
 /public/storage
 /storage/*.key
+/vendor
 .env
-Homestead.yaml
-Homestead.json
-.vagrant
-
-# Vite
-/public/build
-/public/hot
-/public/mix-manifest.json
-/public/js/*.js.map
-/public/css/*.css.map
-
-# Laravel 5 & Lumen specific
-.phpunit.result.cache
-/.phpunit.cache
-/.phpunit.result.cache
-
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage
-
-# Coveralls
-.coveralls.yml
-
-# Cache
-/.cache
-/cache
-
-# Composer
-composer.phar
-
-# Deployment
-/.buildpath
-/.project
 .env.backup
-.env.local
 .env.production
-.env.testing
-/.vscode
-
-# PhpStorm
-.idea/
-*.iml
-
-# Sublime Text
-*.sublime-workspace
-*.sublime-project
-
-# Mac
-.DS_Store
-
-# npm
+.phpactor.json
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
 npm-debug.log
 yarn-error.log
-
-# log files
-/storage/logs/*.log
-
-# IDE files
+/.fleet
 /.idea
-
-# Linux Files
-*.swp
-
-# Directories
-.DS_Store
-.env
-/node_modules
-/vendor
-
-# Vite and npm/Yarn
-/public/hot
-/public/mix-manifest.json
-/public/mix-manifest.*.json
-/public/js/*.js.map
-/public/css/*.css.map
-/yarn.lock
-/package-lock.json
-
-# Ignored build output files
-/public/build
-
-# IDEs and editors
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
-
-# Other
-.phpunit.result.cache
-.phpunit.cache
-.env.testing
-.env.local
-.env.production
+/.vscode
